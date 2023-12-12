@@ -172,6 +172,7 @@ public class WMFilePicker: NSObject,
         picker.pickerConfig.albumIsShowMomentAlbums = false;
         picker.pickerConfig.albumIsShowHiddenAlbum = false;
         picker.pickerConfig.albumIsShowEmptyAlbum = false;
+        picker.pickerConfig.assetIsShowCameraButton = false;
         picker.pickerConfig.assetsMaximumSelectionCount = multiple ? Int.max : 1;
         view.present(picker, animated: true, completion: nil);
         self.presentingViewController = picker;
